@@ -603,6 +603,8 @@ color: var(--pressed-state) ;
   .project-link {
     display: block;
     text-decoration: none;
+    border-bottom: 1px solid #E7E9FC;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
   .project-cont {
     color: #2e2f42;
