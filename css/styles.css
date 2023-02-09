@@ -431,7 +431,6 @@ color: var(--pressed-state) ;
 .customers-item {
   width: 168px;
   height: 88px;
-  fill: var(--customers-color-active);
 }
 
 .customers-link {
@@ -491,6 +490,8 @@ color: var(--pressed-state) ;
 .filter-btn:focus {
   background-color: var(--pressed-state);
   color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-bottom: var(--pressed-state)
 }
 
 /* our projects */
@@ -595,8 +596,8 @@ color: var(--pressed-state) ;
   }
   .project-link:hover,
   .project-link:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.8), 0px 1px 1px rgba(46, 47, 66, 0.16),
-      0px 2px 1px rgba(46, 47, 66, 0.8);
+    border-bottom: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
   .project-link {
     display: block;
